@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-10T16:30:21 EEST" name="Default suite" finished-at="2024-07-10T16:30:28 EEST" duration-ms="6925">
+    <groups>
+    </groups>
+    <test started-at="2024-07-10T16:30:21 EEST" name="Default test" finished-at="2024-07-10T16:30:28 EEST" duration-ms="6925">
+      <class name="sauceDemo.loginPage">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:sauceDemo.loginPage@63376bed]" started-at="2024-07-10T16:30:21 EEST" name="preConditions" finished-at="2024-07-10T16:30:23 EEST" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="check_of_loginpage_Attributes()[pri:1, instance:sauceDemo.loginPage@63376bed]" started-at="2024-07-10T16:30:23 EEST" name="check_of_loginpage_Attributes" finished-at="2024-07-10T16:30:23 EEST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_of_loginpage_Attributes -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:sauceDemo.loginPage@63376bed]" started-at="2024-07-10T16:30:23 EEST" name="close_Browser" finished-at="2024-07-10T16:30:23 EEST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:sauceDemo.loginPage@63376bed]" started-at="2024-07-10T16:30:23 EEST" name="preConditions" finished-at="2024-07-10T16:30:24 EEST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="empty_Credentials_Login(java.lang.String,java.lang.String)[pri:4, instance:sauceDemo.loginPage@63376bed]" started-at="2024-07-10T16:30:24 EEST" name="empty_Credentials_Login" data-provider="testData" finished-at="2024-07-10T16:30:26 EEST" depends-on-methods="sauceDemo.loginPage.check_of_loginpage_Attributes" duration-ms="1210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empty_Credentials_Login -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:sauceDemo.loginPage@63376bed]" started-at="2024-07-10T16:30:26 EEST" name="close_Browser" finished-at="2024-07-10T16:30:26 EEST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:sauceDemo.loginPage@63376bed]" started-at="2024-07-10T16:30:26 EEST" name="preConditions" finished-at="2024-07-10T16:30:27 EEST" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="empty_Credentials_Login(java.lang.String,java.lang.String)[pri:4, instance:sauceDemo.loginPage@63376bed]" started-at="2024-07-10T16:30:27 EEST" name="empty_Credentials_Login" data-provider="testData" finished-at="2024-07-10T16:30:28 EEST" depends-on-methods="sauceDemo.loginPage.check_of_loginpage_Attributes" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empty_Credentials_Login -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:sauceDemo.loginPage@63376bed]" started-at="2024-07-10T16:30:28 EEST" name="close_Browser" finished-at="2024-07-10T16:30:28 EEST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- sauceDemo.loginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
